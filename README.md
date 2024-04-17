@@ -1,7 +1,39 @@
 <center> <h1>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
+# Airbnb SQL Database README
 
+## Overview
+This SQL database contains Airbnb listings, hosts, guests, and reviews for analysis.
+
+## Contents
+1. **Schema**: Describes tables and relationships.
+2. **Dictionary**: Details fields in each table.
+3. **Queries**: Sample SQL queries.
+4. **Cleaning**: Notes on data preprocessing.
+5. **Sources**: Information on data origin.
+6. **Usage**: Instructions for setup and querying.
+
+## Schema
+Tables: Listings, Hosts, Guests, Reviews.
+
+## Dictionary
+Details of each field in the tables.
+
+## Queries
+Sample SQL queries for analysis tasks.
+
+## Cleaning
+Details of data cleaning steps.
+
+## Sources
+Data sourced from Airbnb website.
+
+## Usage
+1. Create database.
+2. Import data.
+3. Run queries.
+4. 
 ---
 
 <center><h3>Repository Contents by Project Task</h3> </center>
