@@ -18,9 +18,16 @@ class DBStorage:
         if getenv('HBNB_ENV') == 'test':
             Base.metadata.drop_all(self.__engine)
 
+    def reload(self):
+        Base.metadata.create_all(self.__engine)
+        session_factory = sessionmaker(bind=self.__engine,
+                                       expire_on_commit=False)
+        Session = scoped_session(session_factory)
+        self.__session = Session()
+
     def all(self, cls=None):
-        from models.state import State
         from models.city import City
+        from models.state import State
         from models.user import User
         from models.amenity import Amenity
         from models.place import Place
