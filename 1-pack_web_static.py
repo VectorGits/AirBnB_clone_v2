@@ -17,7 +17,7 @@ def do_pack():
     # Create a tgz archive of the web_static directory
     timestr = datetime.now().strftime("%Y%m%d%H%M%S")
     archive_path = "versions/web_static_{}.tgz".format(timestr)
-    result = local("tar -cvzf {} web_static".fromat(archive_path))
+    result = local("tar -cvzf {} web_static".format(archive_path))
 
     # Return the path of the archive if it was created, otherwise None
     if result.failed:
