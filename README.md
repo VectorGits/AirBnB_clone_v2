@@ -4,7 +4,7 @@ This repository contains the initial stage of a student project to build a clone
 # Airbnb SQL Database README
 
 ## Overview
-This SQL database contains Airbnb listings, hosts, guests, and reviews for analysis.
+This SQL database contains Airbnb listings, hosts, guests, and reviews for analysis...
 
 ## Contents
 1. **Schema**: Describes tables and relationships.
